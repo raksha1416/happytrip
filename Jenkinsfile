@@ -11,11 +11,7 @@ pipeline {
 				powershell 'mvn -version'
 			}
 		}
-		stage('Archive'){
-		steps{
-		    archiveArtifacts artifacts: '*/.war,*/.jar'
-		}
-		}
+		
 		
 	}
 }
