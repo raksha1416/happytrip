@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+	<listener class-name="Resources.TestListener"/>
+	
+</listeners>
+  <test thread-count="5" name="Test">
+  <classes>
+     
+      
+      <class name="com.skillassure.happytrip.tests.Testcase1"/>
+      <class name="com.skillassure.happytrip.tests.Testcase2"/>
+      <class name="com.skillassure.happytrip.tests.Testcase3"/>
+      <class name="com.skillassure.happytrip.tests.Testcase4"/>
+      <class name="com.skillassure.happytrip.tests.Testcase5"/>
+      <class name="com.skillassure.happytrip.tests.Testcase6"/>
+      <class name="com.skillassure.happytrip.tests.Testcase7"/>
+      <class name="com.skillassure.happytrip.tests.Testcase8"/>
+      <class name="com.skillassure.happytrip.tests.Testcase9"/>
+      <class name="com.skillassure.happytrip.tests.Testcase_10"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

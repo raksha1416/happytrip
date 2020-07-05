@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16026" started-at="2020-07-05T14:03:13Z" finished-at="2020-07-05T14:03:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16026" started-at="2020-07-05T14:03:13Z" finished-at="2020-07-05T14:03:29Z">
+      <class name="com.skillassure.happytrip.tests.Testcase1">
+        <test-method status="PASS" signature="TestSetup()[pri:0, instance:com.skillassure.happytrip.tests.Testcase1@e25b2fe]" name="TestSetup" is-config="true" duration-ms="12352" started-at="2020-07-05T14:03:16Z" finished-at="2020-07-05T14:03:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSetup -->
+        <test-method status="PASS" signature="ReadData(java.lang.String, java.lang.String)[pri:0, instance:com.skillassure.happytrip.tests.Testcase1@e25b2fe]" name="ReadData" duration-ms="1123" started-at="2020-07-05T14:03:28Z" data-provider="Login" finished-at="2020-07-05T14:03:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@mindtree.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReadData -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.skillassure.happytrip.tests.Testcase1@e25b2fe]" name="teardown" is-config="true" duration-ms="87" started-at="2020-07-05T14:03:29Z" finished-at="2020-07-05T14:03:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.skillassure.happytrip.tests.Testcase1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
