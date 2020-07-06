@@ -9,16 +9,16 @@ pipeline {
       }
       stage ('Build Stage') {
             steps {
-                withMaven(maven : 'Maven-3.6.3') {
-	        bat script: 'mvn compile'
+                bat "mvn clean compile" 
+	     
             }
             }
-      }
+      
       stage ('Test Stage') {
             steps {
-                withMaven(maven : 'Maven-3.6.3') {
-	        bat script: 'mvn test -Dbrowser=chrome' 
-            }
+               
+	       
+            bat "mvn test"
             }
       }
    }
