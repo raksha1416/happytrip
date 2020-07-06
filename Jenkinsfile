@@ -4,7 +4,7 @@ pipeline {
        stage('Git-Checkout') {
          steps {
             echo 'Checking out from Gitlab Repo'
-            git 'https://github.com/raksha1416/happytrip.git'
+            git ''
          }
       }
       stage ('Build Stage') {
@@ -21,4 +21,3 @@ pipeline {
             }
             }
       }
-   }
